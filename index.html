@@ -1,6 +1,129 @@
 <html>
-  <body>
-    <p>why doesn't this page work?</p>
-    <p>if this change works,problem is with jekyll</p>
-  </body>
+<head>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=lyA4IcRs1wnOIMTED7IVSM9r"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+<style type="text/css">
+body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+
+.title
+{
+background:red; 
+width:100%; 
+height:50px;
+z-index: 99;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+.title_other
+{
+background:green; 
+width:100%; 
+height:50px;
+z-index:99;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+}
+</style>
+
+<title>map</title>
+</head>
+<body>
+	<p class="title" style="text-align: center;padding-top:20px;font-size:40px;color:white;">My Location</p>
+<div id="allmap"></div>
+
+</body>
 </html>
+
+<script type="text/javascript">
+    var camera = 0;
+    var arr = document.getElementsByTagName('p');
+    var num = arr.length;
+    var content = document.getElementsByTagName('p')[0].innerHTML;//任务****正在执行
+
+    for(var i=0;i<num;++i)
+    {
+        if(camera==1)
+        {
+            arr[i].className = "title_other";
+        }else{
+            arr[i].className = "title";
+        }
+    }
+
+
+var map = new BMap.Map("allmap");
+map.enableScrollWheelZoom();
+map.enableContinuousZoom();
+var p1 = new BMap.Point(103.936948, 30.757636);
+var p2 = new BMap.Point(103.936948, 30.757636);
+var p3 = new BMap.Point(103.936877, 30.757617);
+var p4 = new BMap.Point(103.936877, 30.757617);
+var p5 = new BMap.Point(103.936877, 30.757617);
+var p6 = new BMap.Point(103.936877, 30.757617);
+var p7 = new BMap.Point(103.937243, 30.757524);
+var p8 = new BMap.Point(103.937243, 30.757524);
+var p9 = new BMap.Point(103.936931, 30.757638);
+var p10 = new BMap.Point(103.936931, 30.757638);
+var p11 = new BMap.Point(103.936931, 30.757638);
+var p12 = new BMap.Point(103.936931, 30.757638);
+var p13 = new BMap.Point(103.936931, 30.757638);
+var p14 = new BMap.Point(103.936931, 30.757638);
+var p15 = new BMap.Point(103.936931, 30.757638);
+var p16 = new BMap.Point(103.936929, 30.757635);
+var p17 = new BMap.Point(103.936929, 30.757635);
+var p18 = new BMap.Point(103.936929, 30.757635);
+var p19 = new BMap.Point(103.936929, 30.757635);
+var p20 = new BMap.Point(103.936974, 30.757632);
+var p21 = new BMap.Point(103.936974, 30.757632);
+var p22 = new BMap.Point(103.936974, 30.757632);
+var p23 = new BMap.Point(103.936974, 30.757632);
+var p24 = new BMap.Point(103.93686, 30.757513);
+var p25 = new BMap.Point(103.93686, 30.757513);
+var p26 = new BMap.Point(103.936889, 30.75749);
+var p27 = new BMap.Point(103.936889, 30.75749);
+var p28 = new BMap.Point(103.936889, 30.75749);
+var p29 = new BMap.Point(103.936892, 30.75751);
+var p30 = new BMap.Point(103.936892, 30.75751);
+var p31 = new BMap.Point(103.93694, 30.757639);
+var p32 = new BMap.Point(103.936904, 30.757639);
+var p33 = new BMap.Point(103.936902, 30.757638);
+var p34 = new BMap.Point(103.936902, 30.757638);
+var p35 = new BMap.Point(103.936902, 30.757638);
+var p36 = new BMap.Point(103.936902, 30.757638);
+var p37 = new BMap.Point(103.936902, 30.757638);
+var p38 = new BMap.Point(103.936902, 30.757638);
+var p39 = new BMap.Point(103.936902, 30.757638);
+var p40 = new BMap.Point(103.936902, 30.757638);
+var p41 = new BMap.Point(103.936902, 30.757638);
+var p42 = new BMap.Point(103.936902, 30.757638);
+var p43 = new BMap.Point(103.936902, 30.757638);
+var p44 = new BMap.Point(103.936902, 30.757638);
+var p45 = new BMap.Point(103.936902, 30.757638);
+var p46 = new BMap.Point(103.936902, 30.757638);
+var p47 = new BMap.Point(103.936902, 30.757638);
+var p48 = new BMap.Point(103.936902, 30.757638);
+var p49 = new BMap.Point(103.936902, 30.757638);
+var p50 = new BMap.Point(103.936902, 30.757638);
+var p51 = new BMap.Point(103.936785, 30.757634);
+var p52 = new BMap.Point(103.936948, 30.757636);
+var p53 = new BMap.Point(103.936912, 30.757656);
+var p54 = new BMap.Point(103.936912, 30.757656);
+var p55 = new BMap.Point(103.936943, 30.757649);
+var p56 = new BMap.Point(103.936943, 30.757649);
+var p57 = new BMap.Point(103.936912, 30.757624);
+var p58 = new BMap.Point(103.9369, 30.757515);
+var p59 = new BMap.Point(103.9369, 30.757515);
+var p60 = new BMap.Point(103.9369, 30.757515);
+var p61 = new BMap.Point(103.9369, 30.757515);
+var p62 = new BMap.Point(103.936779, 30.757525);
+var points=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60,p61,p62];
+var m = new BMap.Marker(p62);
+map.addOverlay(m);
+map.centerAndZoom(p62, 12);
+var polyline = new BMap.Polyline(points);
+map.addOverlay(polyline);
+</script>
