@@ -7,4 +7,3 @@ layout: default
 * Just for Test  
   
         I'm trying to write some code  
-<a href="mikelau.com.cn">back here</a>
