@@ -6,7 +6,6 @@ defaults:
      path: ""
    values:
      layout: "default"
-baseurl: KueenLau.github.io 
 baseurl: /KueenLau.github.io
 title: 'MIKES BLOG'
 sidebar_image: /images/cover.jpg
