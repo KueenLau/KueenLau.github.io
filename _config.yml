@@ -1,11 +1,5 @@
 encoding: utf-8
 highlighter: pygments
-defaults:
- -
-   scope:
-     path: ""
-   values:
-     layout: "default"
 baseurl: /KueenLau.github.io
 title: 'MIKES BLOG'
 sidebar_image: /images/cover.jpg
