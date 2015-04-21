@@ -1,6 +1,12 @@
 encoding: utf-8
 highlighter: pygments
-baseurl: /KueenLau.github.io
+defaults:
+ -
+   scope:
+     path: ""
+   values:
+     layout: "default"
+#baseurl: /KueenLau.github.io
 title: 'MIKES BLOG'
 sidebar_image: /images/cover.jpg
 tagline: 'As nichts wird nichts.'
