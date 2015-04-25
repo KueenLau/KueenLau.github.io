@@ -2,7 +2,7 @@
 layout: post
 title: "手把手教你用Github搭建独立博客（一）"
 date: 2015-04-25 9:42:00
-categories: Experience
+categories: blog-build
 featured_image: /images/cover.jpg
 ---
 
