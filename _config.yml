@@ -6,7 +6,8 @@ defaults:
      path: ""
    values:
      layout: "default"
-#baseurl: /KueenLau.github.io
+
+paginate: 2
 title: 'MIKES BLOG'
 sidebar_image: /images/cover.jpg
 tagline: 'As nichts wird nichts.'

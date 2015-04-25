@@ -1,8 +1,0 @@
----
-layout: post
-title: "Jekyll+Github搭建自己的博客"
-date: 2014-04-11 12:00:00
-categories: experience
-featured_image: /images/cover.jpg
----
-anything wrong?
