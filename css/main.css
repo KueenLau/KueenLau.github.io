@@ -60,6 +60,12 @@ img {
 	height: 400px;
 }
 
+pre {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1em 1.5em;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 30px;
