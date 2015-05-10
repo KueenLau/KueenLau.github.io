@@ -24,7 +24,8 @@ body {
 /* Type */
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -38,6 +39,14 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 35px;
+  margin-bottom: 18px;
+  margin-top: 36px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 22px;
   margin-bottom: 18px;
   margin-top: 36px;
   text-transform: uppercase;
